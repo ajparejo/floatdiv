@@ -1,0 +1,45 @@
+* {
+  border: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #dcdcf7;
+}
+
+.contenedor {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor .caja {
+  height: 350px;
+  width: 475px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 10px 10px 25px #757575;
+          box-shadow: 10px 10px 25px #757575;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3em;
+}
+/*# sourceMappingURL=estilo.css.map */

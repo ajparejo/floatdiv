@@ -1,0 +1,33 @@
+$fondo: #dcdcf7;
+$caja: #ffffff;
+
+* {
+    border: 0;
+    margin: 0;
+}
+
+body{
+    background-color: $fondo;
+}
+
+.contenedor{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .caja{
+        height: 350px;
+        width: 475px;
+        display: flex;
+        background-color: $caja;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 10px 10px 25px #757575;
+    }
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
