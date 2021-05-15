@@ -12,6 +12,8 @@ body {
   width: 100vw;
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 350px 350px 350px;
+      grid-template-columns: 350px 350px 350px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -21,8 +23,8 @@ body {
 }
 
 .contenedor .caja {
-  height: 350px;
-  width: 475px;
+  height: 200px;
+  width: 325px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,9 +45,6 @@ p {
 }
 
 .boton {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -58,4 +57,4 @@ p {
   -webkit-box-shadow: 3px 3px 3px #4b4b4b;
           box-shadow: 3px 3px 3px #4b4b4b;
 }
-/*# sourceMappingURL=estilo.css.map */
+/*# sourceMappingURL=estilo9.css.map */

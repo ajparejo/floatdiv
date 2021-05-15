@@ -14,11 +14,12 @@ body{
     height: 100vh;
     width: 100vw;
     display: grid;
+    grid-template-columns: 350px 350px 350px;
     justify-content: center;
     align-items: center;
     .caja{
-        height: 350px;
-        width: 475px;
+        height: 200px;
+        width: 325px;
         display: flex;
         background-color: $caja;
         align-items: center;
@@ -27,13 +28,22 @@ body{
     }
 }
 
+#caja1{}
+#caja2{}
+#caja3{}
+#caja4{}
+#caja5{}
+#caja6{}
+#caja7{}
+#caja8{}
+#caja9{}
+
 p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 3em;
 }
 
 .boton{
-    display: flex;
     align-items: center;
 }
 
